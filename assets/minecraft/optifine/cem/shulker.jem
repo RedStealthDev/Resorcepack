@@ -1,0 +1,53 @@
+{
+	"texture": "shulker.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "lid",
+			"id": "lid",
+			"invertAxis": "xy",
+			"translate": [0, 11, 0],
+			"boxes": [
+				{"coordinates": [-8, 4, -8, 16, 12, 16], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-8, 0, -8, 16, 8, 16], "textureOffset": [0, 28]}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0],
+			"boxes": [
+				{"coordinates": [-3, 6, -3, 6, 6, 6], "textureOffset": [0, 52]}
+			],
+			"submodels": [
+				{
+					"id": "horn",
+					"invertAxis": "xy",
+					"translate": [3, 12, 0],
+					"rotate": [-2.5, 0, -15],
+					"boxes": [
+						{"coordinates": [-0.72444, -0.19411, -2, 1, 2, 1], "textureOffset": [20, 58]}
+					]
+				},
+				{
+					"id": "horn2",
+					"invertAxis": "xy",
+					"translate": [-3, 12, 0],
+					"rotate": [-2.5, 0, 15],
+					"boxes": [
+						{"coordinates": [-0.27556, -0.19411, -2, 1, 2, 1], "textureOffset": [20, 58]}
+					]
+				}
+			]
+		}
+	]
+}
